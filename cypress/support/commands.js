@@ -26,4 +26,6 @@
 
 import { addMatchImageSnapshotCommand } from 'cypress-image-snapshot/command';
 
-addMatchImageSnapshotCommand();
+addMatchImageSnapshotCommand({
+  customDiffConfig: { threshold: 0.1 } // threshold for each pixel
+});
