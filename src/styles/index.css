@@ -1,0 +1,22 @@
+@tailwind base;
+
+@tailwind components;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #f2f4f9;
+}
+
+.form-field {
+  @apply border-solid border border-gray-300 p-1 rounded bg-gray-200;
+}
+
+.btn {
+  @apply px-2 py-1 bg-green-500 text-white rounded;
+}
+
+@tailwind utilities;
